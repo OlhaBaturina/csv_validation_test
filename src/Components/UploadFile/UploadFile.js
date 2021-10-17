@@ -1,5 +1,5 @@
 import React from "react";
-// import "./upload.css";
+import "./upload.css";
 
 const UploadFile = ({ onLoad, onError }) => {
   const isValidFileType = (file) => {

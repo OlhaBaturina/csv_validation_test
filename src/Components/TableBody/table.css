@@ -1,0 +1,18 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+.table th,
+.table tr,
+.table td {
+  border-collapse: collapse;
+  border: 1px solid black;
+  padding: 10px;
+}
+.table thead {
+  background-color: #cbe5ff;
+}
+.table .warning {
+  background-color: pink;
+}

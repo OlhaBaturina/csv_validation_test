@@ -1,5 +1,5 @@
 import React from "react";
-// import "./message.css";
+import "./message.css";
 
 const Message = ({ message = "File format is not correct!" }) => {
   return (

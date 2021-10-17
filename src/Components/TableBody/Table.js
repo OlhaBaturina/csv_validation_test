@@ -1,6 +1,6 @@
 import React from "react";
 import Partition from "./Partition";
-// import "./table.css";
+import "./table.css";
 
 const Table = ({ headers, data }) => {
   if (headers.length === 0 || data.length === 0) {

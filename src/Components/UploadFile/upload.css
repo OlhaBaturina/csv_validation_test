@@ -5,19 +5,16 @@
 }
 .upload .customFileUpload {
   border: 1px solid #0d7900;
-  border-radius: 5px;
-  background-color: #6fbb3f;
-  color: white;
+  background-color: #71c93b;
+  color: rgba(255, 255, 255, 0.849);
   display: inline-block;
   padding: 6px 12px;
   cursor: pointer;
 }
 .upload .customFileUpload:hover {
-  background-color: #4b8925;
-  color: #6fbb3f;
+  background-color: #5baf27;
+  color: #75cf3c;
 }
 .upload .customFileUpload input[type="file"] {
   display: none;
 }
-
-/*# sourceMappingURL=upload.css.map */

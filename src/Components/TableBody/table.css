@@ -11,8 +11,8 @@
   padding: 10px;
 }
 .table thead {
-  background-color: #cbe5ff;
+  background-color: #1f8ec26b;
 }
 .table .warning {
-  background-color: pink;
+  background-color: rgba(236, 110, 110, 0.411);
 }

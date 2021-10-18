@@ -1,15 +1,15 @@
 import statesUSA from "./statesUSA.json";
 
 export const isValidAge = (age) => {
-  if (isNaN(+age)) return false;
-  return Number.isInteger(+age) && +age >= 21;
+  if (age) return false;
+  return Number.isInteger(age) && +age >= 21;
 };
 export const isValidExperience = (age, experience) => {
-  if (isNaN(+age) || isNaN(experience)) return false;
+  if (age || experience) return false;
   return experience >= 0 && experience < age;
 };
 export const isValidYearlyIncome = (yearlyIncome) => {
-  if (isNaN(+yearlyIncome)) return false;
+  if (yearlyIncome) return false;
   return yearlyIncome >= 0 && yearlyIncome <= 1e6;
 };
 export const isValidExpirationDate = (expirationDate) => {

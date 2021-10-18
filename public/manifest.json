@@ -1,6 +1,6 @@
 {
-  "short_name": "Phonebook",
-  "name": "goit-react-hw-03-phonebook",
+  "short_name": "csv_validation",
+  "name": "csv_validation_test",
   "icons": [
     {
       "src": "favicon.ico",
